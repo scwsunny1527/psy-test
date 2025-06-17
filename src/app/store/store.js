@@ -37,13 +37,13 @@ const useQuestionStore = create((set) => ({
       title: "你最想體驗哪種旅遊方式？",
       options: [
         { title: "夜晚燈火下的熱鬧市集", value: { culture: 2, foodie: 1, explorer: 1, chill: 0 } },
-        { title: "遼闊草原或山景，空氣清新", value: { chill: 2, explorer: 1, foodie: 0, culture: 1 } },
+        { title: "遼闊草原，呼吸新鮮空氣", value: { chill: 2, explorer: 1, foodie: 0, culture: 1 } },
         { title: "時尚步行街，感受潮流脈動", value: { explorer: 2, culture: 1, foodie: 1, chill: 0 } },
         { title: "海岸邊的悠閒午后", value: { chill: 2, foodie: 1, explorer: 0, culture: 1 } }
       ]
     },
     "3": {
-      title: "如果只能帶一樣東西出門，你會帶？",
+      title: "若只能帶一樣東西出門，你會帶？",
       options: [
         { title: "相機，記錄每個瞬間", value: { explorer: 1, culture: 2, foodie: 1, chill: 0 } },
         { title: "野餐墊，隨時找個地方躺著休息", value: { chill: 2, foodie: 1, explorer: 0, culture: 1 } },
@@ -61,7 +61,7 @@ const useQuestionStore = create((set) => ({
       ]
     },
     "5": {
-      title: "旅程結束時，你最希望留下什麼回憶？",
+      title: "旅程結束時你希望留下什麼回憶？",
       options: [
         { title: "一張張美食照和飽足的味蕾", value: { foodie: 2, explorer: 1, chill: 0, culture: 1 } },
         { title: "朋友間的歡笑和悠閒時光", value: { chill: 2, culture: 1, explorer: 1, foodie: 0 } },

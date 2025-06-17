@@ -8,10 +8,13 @@ export default function QuestionPage({ questionIndex, nextStep }) {
   const psyData = usePsyStore(state => state);
 
   // 先加分再跳下一頁
-  const clickAnswer = (option) => {
+  const clickAnswer = function(option){
+    // 更新多指標分數
     psyData.updateScoreDetail(option.value);
     nextStep();
-  };
+    console.log(option.title, option.value);
+  }
+  
 
   // 統一像素主色（亮藍）
   const optionClass = `
