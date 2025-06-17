@@ -1,5 +1,6 @@
 'use client';
 
+
 export default function StartPage({ nextStep }) {
   return (
     <div className="w-full min-h-[100vh] flex flex-col justify-center items-center">
